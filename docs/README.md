@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+<!-- 在此处写注释-->
+<!--
+<img src="../samples/Comparison_fig.1.png" width=50%/>
+-->
+# Model structure
+![Image](model.png)
+<div align="center"> 
+The proposed contextual Transformer. In the forward and backward mask, the red, gray, and white blocks indicate the masked position of the information to be predicted, the position of the masked information, and the position of the available information.<br>
+For the souce code, please see <a href="https://github.com/Yuanbo2020/Contextual-Transformer/tree/main/Code" 
+target="https://github.com/Yuanbo2020/Contextual-Transformer/tree/main/Code">here</a>.
+</div>
 
-You can use the [editor on GitHub](https://github.com/Yuanbo2020/Contextual-Transformer/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Experimental results
+## Results of the model with different ratios of N and M
+![Image](different_ratios.png)
+<br>
+<br>
+<br>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Ablation experiments of the cTransformer on test set
+![Image](ablation.png)
+<br>
+<br>
+<br>
 
-### Markdown
+## The effect of different λ values on the cTransformer
+![Image](different_lambda.png)
+<br>
+<br>
+<br>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Comparison of SAT and AT results with other methods related to the analysis of audio event sequences
+![Image](other_models.png)
+<br>
+<br>
+<br>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Yuanbo2020/Contextual-Transformer/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Attention score
+![Image](for_back_att.png)
+<div align="center"> 
+Attention score from the masked MHA in decoder. Subgraph (a) and (b) are from the normal and reverse sequence branches, respectively. The x-axis is each event predicted by the autoregressive way, y-axis is the corresponding reference event.
+</div>
+<br>
+<br>
+ 
