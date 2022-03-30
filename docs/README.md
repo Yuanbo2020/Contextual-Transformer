@@ -10,36 +10,46 @@ For the souce code, please see <a href="https://github.com/Yuanbo2020/Contextual
 target="https://github.com/Yuanbo2020/Contextual-Transformer/tree/main/Code">here</a>.
 </div>
 
+## Attention score
+![Image](for_back_att.png)
+<div align="center"> 
+Attention score from the masked MHA in decoder. Subgraph (a) and (b) are from the normal and reverse sequence branches, respectively. The x-axis is each event predicted in an autoregressive way, y-axis is the corresponding reference event.
+</div>
+<br>
+<br>
+
+## Attention score of another two forward inference demos
+![Image](forward_demos.png)
+<div align="center"> 
+Attention score from the masked MHA in decoder. Subgraph (a) and (b) are from the normal sequence branch with different audio clips, respectively. The x-axis is each event predicted in an autoregressive way, y-axis is the corresponding reference event.
+</div>
+<br>
+<br>
+
 # Experimental results
-## Results of the model with different ratios of N and M
+## Performance of the cTransformer with different numbers of encoder and decoder blocks.
 ![Image](different_ratios.png)
 <br>
 <br>
 <br>
 
-## Ablation experiments of the cTransformer on test set
+## Ablation experiments of the cTransformer on test set.
 ![Image](ablation.png)
 <br>
 <br>
 <br>
 
-## The effect of different λ values on the cTransformer
+## Performance of cTransformer, varying the loss weights.
 ![Image](different_lambda.png)
 <br>
 <br>
 <br>
 
-## Comparison of SAT and AT results with other methods related to the analysis of audio event sequences
+## Comparison of AT and SAT results with prior works on recognizing audio event sequences.
 ![Image](other_models.png)
 <br>
 <br>
 <br>
 
-## Attention score
-![Image](for_back_att.png)
-<div align="center"> 
-Attention score from the masked MHA in decoder. Subgraph (a) and (b) are from the normal and reverse sequence branches, respectively. The x-axis is each event predicted by the autoregressive way, y-axis is the corresponding reference event.
-</div>
-<br>
-<br>
+
  
