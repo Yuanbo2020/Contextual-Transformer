@@ -4,8 +4,11 @@ Supplementary materials for the paper: <b>CT-SAT: Contextual Transformer for Seq
 target="https://yuanbo2020.github.io/Contextual-Transformer/">our homepage</a>.<p></p></h3> 
 
 <br>
-  
-We are happy to improve and refine the CT-SAT, if you have ideas, please feel free to create an issue or contact us.
+
+# Code
+If you are interested in the code of CT-SAT or want to train the model, please see <a href="https://github.com/Yuanbo2020/GCT#ctransformer-contextual-transformer" 
+target="https://github.com/Yuanbo2020/GCT#ctransformer-contextual-transformer"> here </a>.<p></p></h3>  
+
 
 # Citation
 Please feel free to use the sequential label dataset and consider citing our paper as
